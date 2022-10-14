@@ -1,3 +1,12 @@
+///////// PARAMETERS /////////
+
+const diagonals = false;
+const showSets = true;
+const wallDensity = 0.3;
+
+//////////////////////////////
+
+
 let rows = 25, cols = 25;
 let grid = new Array(cols);
 let w, h;
@@ -5,10 +14,6 @@ let w, h;
 let openSet = [];
 let closedSet = [];
 let path = [];
-
-let diagonals = true;
-let showSets = true;
-let wallDensity = 0.4;
 
 let noSolution = false;
 
