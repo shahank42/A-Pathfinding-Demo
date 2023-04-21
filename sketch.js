@@ -7,7 +7,7 @@ const wallDensity = 0.3;
 //////////////////////////////
 
 
-let rows = 25, cols = 25;
+let rows = 35, cols = 100;
 let grid = new Array(cols);
 let w, h;
 
