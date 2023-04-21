@@ -80,7 +80,7 @@ class Spot {
 }
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(cols * 10, rows * 10);
   console.log('A*');
 
   w = width / cols;
